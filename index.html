@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menu Animado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="Sidebar">
+        <div class="btn-toogle">
+            <span id="spnabtn2">&#10095;</span>
+            <span id="spnabtn">&#10094;</span>
+
+        </div>
+
+        <ul>
+         <li><img src="img/hooded-gamer-300x300.jpg" alt=""></li>
+         <hr>
+         <li><a href="#">Inicio </a></li>
+         <li><a href="#">Contacto</a></li>
+         <li><a href="#">Sobre nosotros</a></li>
+        </ul>
+
+
+    </div>
+
+
+
+    <form class="formulario-de-contacto" action="contacto.php" method="post"> 
+        <h2>Contacto</h2>
+        <input type="name" name="nombre" placeholder="Ingrese su Nombre" required>
+        <input type="email" name="email" placeholder="Ingrese su Email" required>
+        <textarea  name="mensaje" placeholder="Ingrese su Mensaje" required></textarea >
+        <input id="enviar-btn" type="submit" name="submit">
+    </form>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
